@@ -41,31 +41,12 @@ export default function Hero() {
 
           <p className="text-fg-dim text-base md:text-lg max-w-xl leading-relaxed">
             I&apos;m{" "}
-            <span className="relative inline-block group cursor-pointer font-bold text-fg hover:text-accent-2 transition-colors align-middle">
-              <span className="font-display text-xs border border-line bg-bg-elev/80 px-2.5 py-1 rounded-md text-accent-2 hover:border-accent-2 transition-colors">
-                devona.pinto()
-              </span>
-              {/* Floating Stat Card on Hover */}
-              <span className="absolute left-1/2 -translate-x-1/2 bottom-full mb-3 scale-0 group-hover:scale-100 transition-all duration-200 origin-bottom bg-bg-card/95 backdrop-blur-md border border-line p-4 rounded-lg shadow-2xl text-xs font-display w-56 pointer-events-none z-30 select-none">
-                <div className="flex items-center justify-between border-b border-line pb-1.5 mb-2">
-                  <span className="text-accent font-semibold">devona.json</span>
-                  <span className="flex h-2 w-2 relative">
-                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-2 opacity-75"></span>
-                    <span className="relative inline-flex rounded-full h-2 w-2 bg-accent-2"></span>
-                  </span>
-                </div>
-                <div className="space-y-1.5 text-[11px] text-fg-dim leading-relaxed">
-                  <div><span className="text-accent-2">"role"</span>: &quot;Systems Engineer&quot;</div>
-                  <div><span className="text-accent-2">"location"</span>: &quot;Mangalore, IN&quot;</div>
-                  <div><span className="text-accent-2">"status"</span>: &quot;online&quot;</div>
-                  <div>
-                    <span className="text-accent-2">"stack"</span>: [
-                    <div className="pl-4">&quot;AWS&quot;, &quot;EKS&quot;, &quot;Kong&quot;,</div>
-                    <div className="pl-4">&quot;CI/CD&quot;, &quot;Next.js&quot;</div>
-                    ]
-                  </div>
-                </div>
-              </span>
+            <span className="font-display font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-accent to-accent-2 hover:brightness-110 transition-all select-none">
+              Devona Pinto
+            </span>
+            <span className="inline-flex items-center gap-1.5 font-display text-[10px] bg-accent-2/10 text-accent-2 px-2 py-0.5 rounded-full border border-accent-2/20 ml-2 align-middle select-none">
+              <span className="h-1.5 w-1.5 rounded-full bg-accent-2 animate-pulse" />
+              sys.on_call
             </span>{" "}
             — a Systems Engineer at Infosys, Mangalore,
             working on the Infra &amp; DevOps team. I design and run the
