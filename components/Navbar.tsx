@@ -19,10 +19,9 @@ export default function Navbar() {
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <a
           href="#top"
-          className="font-display font-extrabold tracking-tight text-sm md:text-base text-fg"
+          className="font-display font-extrabold tracking-tight text-base sm:text-lg md:text-xl text-fg hover:text-accent transition-colors whitespace-nowrap"
         >
-          devona<span className="text-accent">.</span>pinto
-          <span className="text-fg-dim">/console</span>
+          DEVONA THELMA PINTO
         </a>
 
         <ul className="hidden md:flex items-center gap-8 font-display text-xs text-fg-dim">

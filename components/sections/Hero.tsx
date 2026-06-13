@@ -31,6 +31,10 @@ export default function Hero() {
             <span className="hidden sm:inline">Mangalore, India</span>
           </div>
 
+          <h2 className="font-display text-2xl sm:text-4xl md:text-5xl font-extrabold text-fg tracking-tight">
+            DEVONA THELMA PINTO
+          </h2>
+
           <h1 className="font-display text-4xl sm:text-6xl md:text-7xl font-extrabold leading-[1.05] text-balance">
             I ship the
             <br />
