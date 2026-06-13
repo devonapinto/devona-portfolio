@@ -8,7 +8,7 @@ const items = [
     icon: GraduationCap,
     title: "B.E. Computer Science & Engineering",
     org: "Shri Madhwa Vadiraja Institute of Technology and Management, Udupi",
-    meta: "2021 – 2025 · CGPA 9.22 / 10",
+    meta: "2021 – 2025 · CGPA 9.3 / 10",
   },
   {
     icon: Trophy,
