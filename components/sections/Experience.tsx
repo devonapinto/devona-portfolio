@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const timeline = [
   {
-    period: "Dec 2025 — Present",
+    period: "Apr 2026 — Present",
     role: "Systems Engineer · Infra & DevOps",
     org: "Infosys, Mangalore",
     status: "current",
@@ -17,7 +17,7 @@ const timeline = [
     ],
   },
   {
-    period: "Jun 2025 — Dec 2025",
+    period: "Sep 2025 — Mar 2026",
     role: "Systems Engineer Trainee",
     org: "Infosys, Mysore",
     status: "training",
@@ -64,7 +64,7 @@ export default function Experience() {
             experience
           </span>
           <h2 className="font-display text-3xl md:text-4xl font-extrabold mt-3 text-balance">
-            git log --reverse
+            Journey through the stack.
           </h2>
           <p className="text-fg-dim mt-2 max-w-lg">
             Each role builds on the last — from internships and ML research,

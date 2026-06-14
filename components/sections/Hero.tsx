@@ -32,7 +32,7 @@ export default function Hero() {
           </div>
 
           <h2 className="font-display text-2xl sm:text-4xl md:text-5xl font-extrabold text-fg tracking-tight">
-            DEVONA THELMA PINTO
+           Hi  I&apos;m{" "} <span className="font-display font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-accent to-accent-2 hover:brightness-110 transition-all select-none">[DEVONA THELMA PINTO]</span>
           </h2>
 
           <h1 className="font-display text-4xl sm:text-6xl md:text-7xl font-extrabold leading-[1.05] text-balance">
@@ -44,15 +44,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-fg-dim text-base md:text-lg max-w-xl leading-relaxed">
-            I&apos;m{" "}
-            <span className="font-display font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-accent to-accent-2 hover:brightness-110 transition-all select-none">
-              Devona Pinto
-            </span>
-            <span className="inline-flex items-center gap-1.5 font-display text-[10px] bg-accent-2/10 text-accent-2 px-2 py-0.5 rounded-full border border-accent-2/20 ml-2 align-middle select-none">
-              <span className="h-1.5 w-1.5 rounded-full bg-accent-2 animate-pulse" />
-              sys.on_call
-            </span>{" "}
-            — a Systems Engineer at Infosys, Mangalore,
+            I&apos;m a Systems Engineer at Infosys, Mangalore,
             working on the Infra &amp; DevOps team. I design and run the
             platform clients land on: CloudFront distributions, S3 origins,
             EKS clusters behind Kong, and the CI/CD pipelines that push code

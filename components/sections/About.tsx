@@ -23,7 +23,7 @@ const skillGroups = [
   },
   {
     title: "Languages & Data",
-    items: ["Python", "Java", "C", "JavaScript", "MySQL / Oracle SQL"],
+    items: ["Python", "Java", "C", "JavaScript", "MySQL / postgres SQL"],
   },
   {
     title: "ML / Applied AI",
@@ -46,13 +46,13 @@ export default function About() {
               about
             </span>
             <h2 className="font-display text-3xl md:text-4xl font-extrabold mt-3 mb-6 text-balance">
-              From a CSE classroom in Udupi to running platform infra in
-              Mangalore.
+              From academic foundation to orchestrating production-grade cloud
+              systems
             </h2>
             <div className="space-y-4 text-fg-dim leading-relaxed">
               <p>
                 I graduated in Computer Science &amp; Engineering from SMVITM,
-                Udupi with a 9.22 CGPA. My first six months at Infosys were
+                Udupi with a 9.3 CGPA. My first six months at Infosys were
                 spent in training in Mysore, where I went deep on Java,
                 Python, DSA, and database/SQL fundamentals — then moved into
                 full-stack work with React, Node.js, Spring Boot, and REST
